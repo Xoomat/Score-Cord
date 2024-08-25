@@ -77,6 +77,85 @@ body,
 
 /*
  *
+ *  ACTIVITY LIST
+ *
+ */
+.nowPlayingColumn_c2739c {
+  background-color: transparent;
+}
+
+.container_bf550a {
+  background-color: transparent;
+}
+.container_bf550a .scroller_bf550a {
+  margin-left: 0;
+  border-left-color: var(--app-card-border-color);
+}
+
+.memberItem_b09fe8 {
+  padding: 0;
+}
+
+.interactive_ac5d22 {
+  background-color: var(--card-color);
+  border-radius: var(--card-radius);
+  border: none;
+}
+.interactive_ac5d22:hover .section_cd82a7, .interactive_ac5d22.active_ac5d22 .section_cd82a7 {
+  background-color: var(--card-color);
+}
+.interactive_ac5d22:hover {
+  background-color: var(--card-color-hover) !important;
+}
+.interactive_ac5d22.active_ac5d22 {
+  background-color: var(--card-color-active) !important;
+}
+.interactive_ac5d22 .section_cd82a7 {
+  background-color: var(--card-color-hover);
+  border-radius: var(--card-radius);
+}
+
+/*
+ *
+ *  FRIENDS LIST
+ *
+ */
+.container_c2739c {
+  height: var(--content-full-height);
+  background-color: var(--app-foreground);
+  border-radius: var(--app-card-radius);
+}
+
+.peopleColumn_c2739c .container_c18ec9 {
+  margin: 24px 24px 0;
+}
+
+.tabBody_c2739c:before {
+  display: none;
+}
+
+.peopleListItem_d51464:hover, .peopleListItem_d51464.active_d51464 {
+  border-radius: var(--menu-item-radius);
+}
+.peopleListItem_d51464:hover {
+  background-color: var(--background-tinted-hover);
+}
+.peopleListItem_d51464.active_d51464 {
+  background-color: var(--background-tinted-active);
+}
+.peopleListItem_d51464.active_d51464:hover {
+  background-color: var(--background-tinted-highlight);
+}
+
+.actionButton_e01b91 {
+  background-color: var(--background-tinted-hover);
+}
+.actionButton_e01b91.highlight_e01b91 {
+  background-color: var(--background-tinted-active);
+}
+
+/*
+ *
  *  CHANNELS LIST
  *
  */
